@@ -1,14 +1,13 @@
 {
   "kind": "collectionType",
-  "collectionName": "courses",
+  "collectionName": "lessons",
   "info": {
-    "name": "courses",
-    "description": ""
+    "name": "lessons"
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "attributes": {
     "title": {
@@ -21,24 +20,23 @@
       "targetField": "title",
       "required": true
     },
-    "description": {
-      "type": "text"
+    "body": {
+      "type": "richtext",
+      "required": true
     },
-    "thumbnail": {
-      "model": "file",
+    "completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "files": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "images",
+        "files"
       ],
       "plugin": "upload",
       "required": false
-    },
-    "category": {
-      "model": "categories",
-      "via": "courses"
-    },
-    "lessons": {
-      "collection": "lessons"
     }
   }
 }
