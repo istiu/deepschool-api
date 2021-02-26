@@ -11,6 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "add": "^2.0.6",
     "knex": "<0.20.0",
     "pg": "^8.5.1",
     "pg-connection-string": "^2.4.0",
@@ -20,10 +21,12 @@
     "strapi-plugin-content-manager": "3.5.1",
     "strapi-plugin-content-type-builder": "3.5.1",
     "strapi-plugin-email": "3.5.1",
+    "strapi-plugin-entity-relationship-chart": "^3.1.0",
     "strapi-plugin-graphql": "3.5.1",
     "strapi-plugin-upload": "3.5.1",
     "strapi-plugin-users-permissions": "3.5.1",
-    "strapi-utils": "3.5.1"
+    "strapi-utils": "3.5.1",
+    "yarn": "^1.22.10"
   },
   "author": {
     "name": "A Strapi developer"

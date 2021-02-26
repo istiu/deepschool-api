@@ -38,6 +38,7 @@
       "via": "courses"
     },
     "lessons": {
+      "via": "course",
       "collection": "lessons"
     }
   }
