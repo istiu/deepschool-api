@@ -28,6 +28,12 @@
     "course": {
       "model": "courses",
       "via": "lessons"
+    },
+    "users_permissions_users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "lessons",
+      "dominant": true
     }
   }
 }
