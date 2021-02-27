@@ -16,9 +16,9 @@
       "unique": true
     },
     "users_permissions_users": {
+      "via": "classes",
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "classes",
       "dominant": true
     },
     "courses": {
