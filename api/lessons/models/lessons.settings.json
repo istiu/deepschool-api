@@ -25,16 +25,6 @@
       "type": "richtext",
       "required": true
     },
-    "files": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "course": {
       "model": "courses",
       "via": "lessons"

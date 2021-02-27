@@ -40,6 +40,10 @@
     "lessons": {
       "via": "course",
       "collection": "lessons"
+    },
+    "classes": {
+      "via": "courses",
+      "collection": "classes"
     }
   }
 }
