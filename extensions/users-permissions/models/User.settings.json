@@ -60,12 +60,12 @@
       "configurable": false
     },
     "classes": {
-      "via": "users_permissions_users",
-      "collection": "classes"
+      "collection": "classes",
+      "via": "users_permissions_users"
     },
     "lessons": {
-      "via": "users_permissions_users",
-      "collection": "lessons"
+      "collection": "lessons",
+      "via": "users_permissions_users"
     }
   }
 }
